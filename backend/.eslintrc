@@ -1,0 +1,35 @@
+{
+  "extends": [
+    "prettier",
+  ],
+  "plugins": ["prettier"],
+  "rules": {
+    "camelcase": "off",
+    "no-return-assign": [
+      "off"
+    ],
+    "prettier/prettier": 0,
+    "react/react-in-jsx-scope":0,
+    "react/no-unescaped-entities":0,
+    "react/prop-types":0,
+    "react/display-name":0,
+    "react/jsx-no-duplicate-props":0,
+    "react/jsx-key":0,
+    "react/no-find-dom-node":0,
+    "no-unexpected-multiline": "error",
+    "react/jsx-wrap-multilines": 0,
+    "max-len": 0,
+    "no-useless-concat":0,
+    "import/no-dynamic-require":0
+  },
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true
+  },
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    }
+  }
+}
